@@ -1,0 +1,34 @@
+{
+  "platform": "seven-tv",
+  "displayName": "7TV",
+  "officialDocs": "https://7tv.app/",
+  "lastVerified": "2026-05",
+  "assets": {
+    "emote": {
+      "static": {
+        "sizes": [
+          { "name": "1x", "width": 32, "height": 32 },
+          { "name": "2x", "width": 64, "height": 64 },
+          { "name": "3x", "width": 96, "height": 96 },
+          { "name": "4x", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 7168,
+        "formats": ["webp", "avif"],
+        "transparency": true,
+        "aspectRatio": "free"
+      },
+      "animated": {
+        "sizes": [
+          { "name": "1x", "width": 32, "height": 32 },
+          { "name": "2x", "width": 64, "height": 64 },
+          { "name": "3x", "width": 96, "height": 96 },
+          { "name": "4x", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 7168,
+        "formats": ["webp", "avif", "gif"],
+        "transparency": true,
+        "aspectRatio": "free"
+      }
+    }
+  }
+}

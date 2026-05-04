@@ -1,0 +1,62 @@
+{
+  "name": "emoteresizer-open",
+  "version": "0.1.0",
+  "description": "Open-source specs and validation for Twitch, Discord, Kick, YouTube, Slack, and 7TV emotes. Powered by emoteresizer.net.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "data",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./data/*": "./data/*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test dist/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "twitch",
+    "discord",
+    "kick",
+    "youtube",
+    "slack",
+    "7tv",
+    "emote",
+    "emoji",
+    "sticker",
+    "resizer",
+    "specs",
+    "validator",
+    "streaming"
+  ],
+  "author": {
+    "name": "Katherine",
+    "email": "kathli102388@gmail.com",
+    "url": "https://emoteresizer.net"
+  },
+  "license": "MIT",
+  "homepage": "https://emoteresizer.net",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatherineGuoGuo/emoteresizer-open.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KatherineGuoGuo/emoteresizer-open/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

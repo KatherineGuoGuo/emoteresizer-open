@@ -1,0 +1,52 @@
+{
+  "platform": "youtube",
+  "displayName": "YouTube",
+  "officialDocs": "https://support.google.com/youtube/answer/9229632",
+  "lastVerified": "2026-05",
+  "assets": {
+    "memberEmoji": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 800, "height": 800 }
+        ],
+        "maxSizeKB": 1024,
+        "formats": ["png", "gif", "jpeg"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    },
+    "channelProfile": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 800, "height": 800 }
+        ],
+        "maxSizeKB": 4096,
+        "formats": ["png", "gif", "jpeg"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    },
+    "channelBanner": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 2560, "height": 1440 }
+        ],
+        "maxSizeKB": 6144,
+        "formats": ["png", "jpeg"],
+        "transparency": false,
+        "aspectRatio": "16:9"
+      }
+    },
+    "videoThumbnail": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 1280, "height": 720 }
+        ],
+        "maxSizeKB": 2048,
+        "formats": ["png", "jpeg", "gif"],
+        "transparency": false,
+        "aspectRatio": "16:9"
+      }
+    }
+  }
+}

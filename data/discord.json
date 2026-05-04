@@ -1,0 +1,69 @@
+{
+  "platform": "discord",
+  "displayName": "Discord",
+  "officialDocs": "https://support.discord.com/hc/en-us/articles/360036479811",
+  "lastVerified": "2026-05",
+  "assets": {
+    "emoji": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 256,
+        "formats": ["png", "jpeg"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      },
+      "animated": {
+        "sizes": [
+          { "name": "default", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 256,
+        "formats": ["gif"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    },
+    "sticker": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 320, "height": 320 }
+        ],
+        "maxSizeKB": 512,
+        "formats": ["png", "apng", "lottie"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    },
+    "soundboard": {
+      "static": {
+        "sizes": [],
+        "maxSizeKB": 512,
+        "formats": ["mp3", "ogg"],
+        "maxDurationSec": 5
+      }
+    },
+    "serverIcon": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 512, "height": 512 }
+        ],
+        "maxSizeKB": 8192,
+        "formats": ["png", "jpeg", "gif"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    },
+    "banner": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 960, "height": 540 }
+        ],
+        "maxSizeKB": 8192,
+        "formats": ["png", "jpeg"],
+        "transparency": false,
+        "aspectRatio": "16:9"
+      }
+    }
+  }
+}

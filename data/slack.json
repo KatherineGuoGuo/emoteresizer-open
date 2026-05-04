@@ -1,0 +1,28 @@
+{
+  "platform": "slack",
+  "displayName": "Slack",
+  "officialDocs": "https://slack.com/help/articles/206870177-Add-customized-emoji-and-aliases-to-your-workspace",
+  "lastVerified": "2026-05",
+  "assets": {
+    "emoji": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 128,
+        "formats": ["png", "jpeg", "gif"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      },
+      "animated": {
+        "sizes": [
+          { "name": "default", "width": 128, "height": 128 }
+        ],
+        "maxSizeKB": 128,
+        "formats": ["gif"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    }
+  }
+}

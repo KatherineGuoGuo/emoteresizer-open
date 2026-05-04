@@ -1,0 +1,28 @@
+{
+  "platform": "kick",
+  "displayName": "Kick",
+  "officialDocs": "https://help.kick.com/",
+  "lastVerified": "2026-05",
+  "assets": {
+    "emote": {
+      "static": {
+        "sizes": [
+          { "name": "default", "width": 112, "height": 112 }
+        ],
+        "maxSizeKB": 256,
+        "formats": ["png"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      },
+      "animated": {
+        "sizes": [
+          { "name": "default", "width": 112, "height": 112 }
+        ],
+        "maxSizeKB": 1024,
+        "formats": ["gif"],
+        "transparency": true,
+        "aspectRatio": "1:1"
+      }
+    }
+  }
+}
